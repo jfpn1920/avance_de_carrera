@@ -94,14 +94,7 @@
 
 ### 🧮 Cálculo del porcentaje de avance
 
-<p align="justify">Una de las funcionalidades principales del proyecto es el cálculo automático del porcentaje de avance académico de cada estudiante. Para obtenerlo, el programa suma las asignaturas aprobadas y las asignaturas pendientes, utilizando esta cantidad como total de asignaturas. Después, divide las asignaturas aprobadas entre el total y multiplica el resultado por <b>100.0</b> para obtener el porcentaje. La fórmula utilizada es la siguiente:</p>
-
-\[
-\text{Avance} =
-\frac{\text{Asignaturas aprobadas}}
-{\text{Asignaturas aprobadas}+\text{Asignaturas pendientes}}
-\times 100
-\]
+<p align="justify">Una de las funcionalidades principales del proyecto es el cálculo automático del porcentaje de avance académico de cada estudiante. Para obtenerlo, el programa suma las asignaturas aprobadas y las asignaturas pendientes, utilizando esta cantidad como total de asignaturas. Después, divide las asignaturas aprobadas entre el total y multiplica el resultado por <b>100.0</b> para obtener el porcentaje. La fórmula utilizada es la siguiente: <b>[text{Avance} = frac { text{Asignaturas aprobadas}} text{Asignaturas aprobadas} + text{Asignaturas pendientes}} times 100]</b></p>
 
 <p align="justify">Este cálculo se realiza tanto al registrar como al editar un avance académico. Si la suma de las asignaturas aprobadas y pendientes es mayor que cero, se obtiene el porcentaje correspondiente. De lo contrario, el programa establece el avance en <b>0</b>. Para mostrar el resultado con dos cifras decimales, utiliza <b>String.format("%.2f", avances[i])</b>.</p>
 
